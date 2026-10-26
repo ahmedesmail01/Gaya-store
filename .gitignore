@@ -1,0 +1,92 @@
+# ===================================================
+# OS / system files
+# ===================================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ===================================================
+# Environment & secrets
+# ===================================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ===================================================
+# Logs
+# ===================================================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===================================================
+# Archives
+# ===================================================
+*.zip
+*.tar.gz
+*.rar
+
+# ===================================================
+# IDEs & editors
+# ===================================================
+.idea/
+*.iml
+*.iws
+*.ipr
+.project
+.classpath
+.factorypath
+.settings/
+.springBeans
+.sts4-cache/
+.apt_generated/
+.c9/
+*.launch
+*.sublime-workspace
+.history/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/mcp.json
+
+# ===================================================
+# Client (Angular)
+# ===================================================
+node_modules/
+client/**/dist/
+client/**/tmp/
+client/**/out-tsc/
+client/**/bazel-out/
+client/**/.angular/cache/
+client/**/coverage/
+client/**/typings/
+.sass-cache/
+connect.lock
+libpeerconnection.log
+testem.log
+__screenshots__/
+
+# ===================================================
+# Server (Spring Boot / Maven)
+# ===================================================
+server/**/target/
+!server/**/src/main/**/target/
+!server/**/src/test/**/target/
+server/**/build/
+!server/**/src/main/**/build/
+!server/**/src/test/**/build/
+server/**/HELP.md
+.mvn/wrapper/maven-wrapper.jar
+
+# NetBeans
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
